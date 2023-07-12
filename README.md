@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Prerequisites
+The setups steps expect following tools installed on the system.
+* Github
+* Ruby version: 3.2.2
+* Rails version: 7.0.6
 
-Things you may want to cover:
+SETUP:
 
-* Ruby version
+1. Git clone repository
 
-* System dependencies
+2. Install dependencies: 'bundle install'
 
-* Configuration
+3. Run database migrations: 'bin/rake db:migrate'
 
-* Database creation
+4. Deploy: 'rails server'
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5. Visit the site at http://localhost:3000
